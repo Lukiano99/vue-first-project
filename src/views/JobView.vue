@@ -30,6 +30,7 @@ onMounted(async () => {
 });
 
 const deleteJob = async () => {
+    console.log('edited')
     try {
         const confirm = window.confirm('Are you sure you want to delte this job?');
         if (confirm) {
